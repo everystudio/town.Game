@@ -99,7 +99,7 @@ public class RestaurantMain : Singleton<RestaurantMain> {
 				m_iAnim = 1;
 			}
 			m_iAnimOffset %= 8;
-			m_imgTest.sprite = SpriteManager.Instance.SpriteCreate (m_strTexture, new Rect (64.0f*m_iAnim, 98.0f*m_iAnimOffset, 64.0f, 98.0f), new Vector2(0.0f,0.0f));
+			//m_imgTest.sprite = SpriteManager.Instance.SpriteCreate (m_strTexture, new Rect (64.0f*m_iAnim, 98.0f*m_iAnimOffset, 64.0f, 98.0f), new Vector2(0.0f,0.0f));
 			m_fTime -= 0.25f;
 		}
 
